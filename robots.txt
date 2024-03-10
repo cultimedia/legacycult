@@ -1,0 +1,21 @@
+User-Agent: *
+Disallow: /page19979092.html
+Disallow: /error
+Disallow: /page20277051.html
+Disallow: /page20277064.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: https://legacycult.com/sitemap.xml
+Host: https://legacycult.com

@@ -1,0 +1,25 @@
+ErrorDocument 403 /page19979092.html
+ErrorDocument 404 /page19979092.html
+
+DirectoryIndex page19248882.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^terms$ page19954821.html [NC]
+RewriteRule ^terms/$ page19954821.html [NC]
+
+RewriteRule ^privacy$ page19957564.html [NC]
+RewriteRule ^privacy/$ page19957564.html [NC]
+
+RewriteRule ^error$ page19979092.html [NC]
+RewriteRule ^error/$ page19979092.html [NC]
+
+RewriteRule ^contact$ page19982633.html [NC]
+RewriteRule ^contact/$ page19982633.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
